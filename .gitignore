@@ -1,3 +1,6 @@
+--[[KEY IS: C]]--
+wait(1)
+
 getgenv().AimPart = "HumanoidRootPart" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}
 getgenv().AimlockKey = "c"
 getgenv().AimRadius = 30 
@@ -162,7 +165,7 @@ wait(0.2)
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "maz#6798";
-Title = "hexxed#3834";
+Description = "Zennoder2";
+Title = "Made by Zen";
 Duration = 10;
 });
